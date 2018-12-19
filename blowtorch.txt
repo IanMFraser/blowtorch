@@ -1,3 +1,12 @@
-Blowtorch
-
 objective: 
+
+The objective of this project is to create an oscillator that incorporates a model that learns from the behavior of other chaotic oscillators.
+
+The general approach that we might take is to feed a RNN with a small number of breakpoints in order to predict the possible behavior of the input. Our interest however is not in how well this RNN will actually predict the input oscillator but how the behavior of the output varies during it's training process. 
+
+The learning process will be implemented with the help of Python libraries. The oscillator will be written in C/C++ for use in either Max/MSP or SuperCollider programming languages.  '
+
+What do we need?
+
+For a given chaotic map, we need to create a python implementation to create the training data. 
+More to come...
